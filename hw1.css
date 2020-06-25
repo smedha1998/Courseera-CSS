@@ -1,0 +1,112 @@
+header{
+	background: url("images/flywheel.jpg") #198 no-repeat;
+	border: 1px solid #444;
+}
+h1{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+nav{
+	text-align: center;
+}
+nav a{
+	box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid #333;
+	border-radius: 10px;
+	margin: 30px;
+	padding: 20px;
+	background-color: #748759;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+}
+a:hover{
+	color: #000000;
+	transition: 2s linear;
+	transform: scale(2,2);
+}
+.active{
+	background-color: #109;
+}
+aside{
+	background-color: #248938;
+	width: 160px;
+	height: 100vh;
+	float: left;
+}
+aside img{
+	display: block;
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+	border: 3px solid #000;
+	transition: 2s ease;
+	transform: rotate(369deg);
+}
+img:hover{
+	transform: rotate(-9deg);
+}
+section{
+	display: inline-block;
+	width: 70%;
+	padding-left: 30px;
+}
+
+
+table{
+	font-family: arial,"Times New Roman",serif;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 30px;
+	width: 85%;
+	margin:0% 10%;
+	background-color: #eefeee;
+	padding: 10px;
+	transition: 2s ease;
+	transform: translate(30px,10px);
+	height: 100vh;
+}
+th{
+	background-color: #102993;
+	background-image: linear-gradient(to bottom right, red, yellow);
+	background-image: -webkit-linear-gradient(to bottom right, red, yellow);
+	background-image: -o-linear-gradient(to bottom right, red, yellow);
+	background-image: -moz-linear-gradient(to bottom right, red, yellow);
+	border:1px solid #4949;
+	border-bottom: 3px solid #4949;
+	border-radius: 20% 20% 0% 0%;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+
+}
+tr{
+	opacity: 0.8;
+	text-align: left;
+
+}
+th:first-child{
+	text-align: left;
+}
+
+tr:hover{
+	opacity: 1;
+}
+td{
+	border:1px solid #229;
+	padding: 2px;
+	color: #699;
+	background-color: #874;
+	margin: 2px;
+	border-radius: 2px;
+	text-align: center;
+	text-shadow: 2px 2px #ff000f;
+}
+td:first-child{
+	text-align: left;
+}
+td:hover{
+	color: #000;
+}
